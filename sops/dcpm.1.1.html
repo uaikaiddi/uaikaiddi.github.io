@@ -1,0 +1,1229 @@
+
+<!--CSS Stylesheet Link-->
+<head>
+<link rel="stylesheet" type="text/css" href="CS_SOP.css">
+</head>
+
+<div class="page-width">
+  
+<!--SOP Heading Information-->
+<table style="width:100%">
+  <th colspan="2">
+    <p class="procedureHeading">
+      DCPM.1.1 Register a Donor or Patient
+    </p>
+  </th>
+
+<!--Procedure Information-->
+  <tr>
+    <td>
+      <p class="procedureInfo"> Procedure Area: Donor Collection Procedures (DCPM)
+      </p>
+    </td>
+
+<!--Version Information-->
+    <td>
+      <p class="procedureInfo">
+        Version: 6.0
+      </p>
+    </td>
+  </tr>
+</table>
+
+<!--Subparts-->
+
+<!--Purpose-->
+<h3>
+Purpose
+</h3>
+<p>
+  To properly identify and register an allogeneic donor who presents for blood donation, an autologous patient who presents for blood collection, or a patient who presents for therapeutic phlebotomy.
+</p>
+
+<!--Scope-->
+<h3>
+Scope
+</h3>
+<p>
+  Donor Services and other staff trained to register donors and patients
+</p>
+
+<!--Materials-->
+<div class="materials">
+  <h3>
+Materials
+</h3>
+</div>
+
+<table class="no-border">
+  <tr>
+
+<!--Materials-Column 1-->
+    <div class="materialcol1">
+      <td class="no-border">
+        <ul>
+          <li>Computer workstation</li>
+          <li>"Directed Donor" tag, if needed</li>
+          <li>Donation Identification Number (DIN) set</li>
+          <li>"For Autologous Use Only" tag, if necessary</li>
+          <li>Printer</li>
+          <li> <a href="#">Autologous Patient Record (APR)</a>, if appropriate</li>
+          <li>Donor Inquiry Record, if needed (initiated in <b><i>MO.2.1</i></b>)</li>
+          <li>Patient Acknowledgment, if needed (initiated in <b><i>DCPM.7.3</i></b>)</li>
+        </ul>
+    </div>
+
+<!--Materials-Column 2-->
+    <div class="materialcol2">
+      <td class="no-border">
+        <ul>
+          <li>Personal Protective Equipment:</li>
+          <ul>
+            <li>Closed-toe shoes</li>
+          </ul>
+          <li><a href="#"><i>Permission for Minor to Donate</i></a> form, if needed</li>
+          <li><i>Reportable Event Form,</i> if needed (initiated in <b><i>EMP.3.1</i></b>)</li>
+          <li><i>Request for Directed Donation</i> form, if needed (initiated in <b>DCPM.7.1</b>)</li>
+          <li><i><a href="#">Single Donation Record (SDR)</a></i>, if appropriate</li>
+          <li><i><a href="#">Therapeutic Patient Record (TPR)</a></i>, if appropriate</li>
+          <li><i>Therapeutic Phlebotomy Order</i> form, if needed (initiated in <b>DCPM.7.3</b>)</li>
+        </ul>
+      </td>
+    </div>
+  </tr>
+</table>
+
+<!--Procedure Notes-->
+<h3>
+Procedure Notes
+</h3>
+<ul>
+  <li>When accessing a patient's enrollment details, do not modify or change information. Only Quality Assurance is authorized to edit enrollment details. Contact Quality Assurance with questions about the order. </li>
+  <br/>
+
+  <li>If the donor appears to have any difficulty understanding English, request that the donor use a qualified interpreter or bilingual screener. If a qualified interpreter or bilingual screener is not available, defer the donor for one day, and encourage
+    the donor to schedule an appointment when an interpreter or bilingual screener is available. See <b>DRCT.3.2</b> for information on requesting a third-party interpreter. </li>
+  <br/>
+
+  <li>If an allogeneic donor indicates that they are not able to donate due to a risk found on the <i>Donor Educational
+	Materials</i>, ask the donor to self-defer. There is no need to register the donor. </li>
+  <br/>
+
+</ul>
+
+<!--Procedure Steps-->
+<h3>
+Procedure Steps
+</h3>
+<p>
+  This procedure is divided into the following sub procedures:
+</p>
+<ul>
+  <li>Determine the reason for donation; see <a href=#1.1.1>1.1.1, Determine the Reason for Donation</a>.</li>
+  <li>Initiate apheresis paperwork according to <a href=#1.1.2>1.1.2, Register the Donor in IBBIS</a>.</li>
+  <li>Check and prime the kit according to <a href=#1.1.3>1.1.3, Handle Donation Paperwork</a>.</li>
+</ul>
+
+<!--Procedure Section 1-->
+<h4><a name="1.1.1">
+1.1.1, Determine the Reason for Donation
+</a>
+</h4>
+<p>
+  Determine the reason for donation (allogeneic, directed, autologous, or therapeutic), and proceed as appropriate:
+</p>
+
+<!--If..Then Table-->
+<table>
+  <tr>
+    <th>If this</th>
+    <th>Then</th>
+  </tr>
+
+  <tr>
+    <td>Allogeneic (including directed)</td>
+    <td>
+      <ul>
+        <li>Provide the donor a copy of the Donor Educational Materials.</li>
+        <li>Either give the donor time to read these before registering in IBBIS, or give the materials to the donor to read after IBBIS registration and before the donor interview. Proceed to IBBIS registration per section <a href="#">1.1.2, Register the Donor in IBBIS.</a></li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Autologous</td>
+    <td>
+      <p>
+        Proceed to IBBIS registration per section <a href="#">1.1.2, Register the Donor in IBBIS</a>.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Therapeutic</td>
+    <td>
+      <ol>
+        <li>Obtain the approved copy of the Therapeutic Phlebotomy Order, if available, and review the diagnosis in the <b>Indication for phlebotomy</b> field; if the form is not available, obtain this information from the <b>Diagnosis</b> field in the IBBIS
+          Enroll a Patient function (see
+          <b>IBBIS.3.2, Enroll a Patient</b>):</li>
+
+        <table>
+          <tr>
+            <th>If this</th>
+            <th>Then this</th>
+          </tr>
+
+          <tr>
+            <td>Hereditary Hemochromatosis or Secondary Polycythemia due to Testosterone Replacement Therapy (TRT)</td>
+            <td>
+              <ul>
+                <li>If a Patient Acknowledgment is needed for this patient, have the patient sign this acknowledgment. Forward it to Quality Assurance (via fax if Quality Assurance is not on site).</li>
+                <li>Provide the donor a copy of the <i>Donor Educational Materials</i>.</li>
+                <li>Either give the donor time to read these before registering in IBBIS, or give the materials to the donor to read after IBBIS registration and before the donor interview. Proceed to IBBIS registration per section
+                  <a href="#">1.1.2, Register the Donor in IBBIS</a>.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Other diagnosis</td>
+            <td>Continue with to the next step.</td>
+          </tr>
+        </table>
+
+        <li>Access the Donation History (see <b>IBBIS.2.4.3, Look Up Donation History</b>). Determine how long it has been since the last therapeutic collection. Determine if the patient is presenting too early according to the frequency specified in the
+          <b>Frequency of
+				draw</b> field on the order; if the form is not available, obtain this information from the
+          <b>Frequency</b> field in IBBIS Enroll a Patient function (see <b>IBBIS.3.2, Enroll a Patient</b>). Handle based on the patient's diagnosis and the ordered collection frequency:</li>
+
+        <table>
+          <tr>
+            <th>If this</th>
+            <th>Then this</th>
+          </tr>
+
+          <tr>
+            <td>Hereditary Hemochromatosis or Secondary Polycythemia due to TRT</td>
+
+            <td>
+              <table>
+                <tr>
+                  <th>If interval is</th>
+                  <th>Then</th>
+                </tr>
+
+                <tr>
+                  <td>&#60; 8 weeks (56 days)</td>
+                  <td>Accept the patient according to the ordered frequency. If the patient presents early, contact the Medical Director or designee to determine if the patient can be collected early.</td>
+                </tr>
+
+                <tr>
+                  <td>&ge; 8 weeks (56 days)</td>
+                  <td>Accept the patient as long as it has been at least 8 weeks since the last collection, and "Potential Therp. Crossover" intended use is active. (When registering in IBBIS, review the intended use displayed. If "Therapeutic" displays,
+                    reevaluate the frequency based on the other diagnosis table row.)
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>As needed</td>
+                  <td>Accept the patient as long as it has been at least one week since their last donation.
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <tr>
+              <td>Other diagnosis</td>
+              <td>
+                <table>
+                  <tr>
+                    <th>If this</th>
+                    <th>Then this</th>
+                  </tr>
+
+                  <tr>
+                    <td>Frequency is as needed</td>
+                    <td>Accept the patient as long as it has been at least one week since the last donation.</td>
+                  </tr>
+
+                  <tr>
+                    <td>Patient not early</td>
+                    <td>Accept the patient; proceed to step 3</td>
+                  </tr>
+
+                  <tr>
+                    <td>Patient is early</td>
+                    <td>Contact Medical Director or designee to determine if the patient can be accepted today; accept or defer patient as instructed by the Medical Director or designee.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+        </table>
+        <li>Determine if a processing fee is appropriate. If applicable, accept the processing fee from the patient, and fill out a receipt (see <b>FDPM.1.1</b>). Note this:</li>
+        <ul>
+          <li><b>Only</b> authorized staff trained to handle receipts may accept payment.</li>
+          <li>LifeSouth only collects a processing fee from patients with diagnoses other than Hereditary Hemochromatosis or Secondary Polycythemia due to TRT.</li>
+          <li>Do <b>not</b> charge a processing fee to patients with a diagnosis of Hereditary Hemochromatosis or Secondary Polycythemia due to TRT.</li>
+        </ul>
+        <li>Proceed to IBBIS registration per section <a href="#">1.1.2, Register the Donor in IBBIS</a>.</li>
+      </ol>
+    </td>
+    </tr>
+</table>
+
+<!--Procedure Section 2-->
+<h4><a name="1.1.2">
+1.1.2, Register the Donor in IBBIS
+</a>
+</h4>
+
+<p>
+Access the Register a Donor function; see <b>IBBIS.2.2, Register a Donor.</b> Complete the registration in IBBIS as
+follows:
+</p>
+
+<ol>
+  <li>Look up the donor in IBBIS using his or her phone number. Proceed based on whether records appear: </li>
+  <br/>
+
+	<table>
+		<tr>
+			<th>If this</th>
+			<th>Then</th>
+		</tr>
+
+		<tr>
+			<td>Donor record or list of donor records appear</td>
+			<td>Review the list of donors; determine if a record corresponds to the donor.
+				<table>
+					<tr>
+						<th>If this</th>
+						<th>Then</th>
+					</tr>
+
+					<tr>
+						<td>Match found</td>
+						<td>Select the record that matches the donor. Proceed to step 2.</td>
+					</tr>
+
+					<tr>
+						<td>No match found</td>
+						<td>Proceed as explained in the next row (as if no records appeared).</td>
+						</td>
+						<br/>
+					</tr>
+				</table>
+		</tr>
+
+		<tr>
+			<td>No records appear</td>
+			<td>Ask the donor if he or she has donated using a different phone number.
+				<table>
+					<tr>
+						<th>If this</th>
+						<th>Then</th>
+					</tr>
+
+					<tr>
+						<td>Yes</td>
+						<td>Repeat lookup using another phone number.</td>
+					</tr>
+
+					<tr>
+						<td>No</td>
+						<td>
+							<ol>
+								<li>Search using the donor's name and date of birth. Enter the donor's full legal name (first, middle, and last). If needed, ask the donor for his or her legal first, middle, and/or last name(s).</li>
+								<li>Proceed based on whether a matching record is found:</li>
+							</ol>
+							<table>
+								<tr>
+									<th>If this</th>
+									<th>Then</th>
+								</tr>
+								<tr>
+									<td>Record found</td>
+									<td>Select the record that matches the donor. Proceed to step 2.</td>
+								</tr>
+
+								<tr>
+									<td>No record found</td>
+									<td>Verify that the donor has not donated using another name (e.g., maiden name or nickname). If the donor indicates "yes," repeat the lookup using the other name. Otherwise, select the <b>New Donor button</b>, and proceed to step 2.</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<br/>
+	<li>Proceed based on whether the photo ID is on file and/or the donor is a new donor:</li>
+
+		<div class="note">
+      <p class="note-head">Notes</p>
+      <ul>
+			<li class="note-text">If the photo ID on file or presented has expired, refer to <b><a href="#">Troubleshooting</a></b>.</li>
+      </ul>
+    </div>
+		<br/>
+
+		<table>
+			<tr>
+				<th>If this</th>
+				<th>Then</th>
+			</tr>
+
+			<tr>
+				<td>ID on file</td>
+				<td>Verify the ID shown accurately represents the donor. If yes, click <b>Next</b> to proceed.</td>
+			</tr>
+
+			<tr>
+				<td>No ID on file</td>
+				<td rowspan="2">
+					<ol>
+						<li>Ask the donor for an acceptable photo ID. Verify the person shown on the ID is the donor. </li>
+						<li>Scan the ID as detailed in <b>IBBIS.2.2.3, Scan a Donor's Identification Card</b>. </li>
+						<li>Click <b>Next </b>to proceed.</li>
+
+							<div class="note">
+							<p class="note-text"><b>Note: </b>If the donor does not want his or her photo ID scanned, opt the donor out of this function as explained in <a href="#"><b>IBBIS.2.2.3, Scan a Donor's Identification Card</b></a>.</p>
+    					</div>
+					</ol>
+				</td>
+			</tr>
+
+			<tr>
+				<td>New Donor</td>
+			</tr>
+		</table>
+
+	<br/>
+
+  <li>If IBBIS alerts "ROLLING DEFERRAL ALERT: Evaluate NDD before rebooking" (see example in Figure 1),
+note this:
+    <ol>
+		<li>If the donor will donate apheresis platelets today, further evaluation is needed concerning today's donation as well as the donor's next donation date (NDD). The information displayed in the message will print on the SDR in the <b>ELIGIBLITY</b> field. </li>
+		<li>Evaluate the information and make additional notations as instructed in section <a href="#"><b><i>1.1.3, Handle Donation Paperwork</i></b></a> (on page 7). </li>
+		</ol>
+
+		<br/>
+
+		<img class="img" src="http://www.immersion-3d.com/wp-content/uploads/2015/12/image-placeholder-500x500.jpg">
+			<p class="dataCaption">
+  			<b>Figure 1</b>, Example Rolling Deferral Alert
+			</p>
+
+    <!--If...Then Table-->
+    <table>
+      <tr>
+        <th>If the answer is</th>
+        <th>Then</th>
+      </tr>
+
+      <tr>
+        <td>Yes</td>
+        <td>Convert the donor to platelet apheresis, whole blood, or plasma-only as appropriate. If the donation will not proceed on the ALYX, make a note on the SDR stating “Donor has sickle trait” and discard the flowsheet.</td>
+      </tr>
+
+      <tr>
+        <td>No</td>
+        <td>Proceed with the 2RBC collection.</td>
+      </tr>
+
+    </table>
+    <br/>
+
+  <li>Verify that the donor is old enough to donate.</li>
+
+	<table>
+		<tr>
+			<th>If donor is</th>
+			<th>Then</th>
+		</tr>
+
+		<tr>
+			<td>17 or older</td>
+			<td>Continue to step 5.</td>
+		</tr>
+
+		<tr>
+			<td>16</td>
+			<td>Determine whether the donor has a permission slip:
+				<br/>
+				<table>
+					<tr>
+						<th>Has slip?</th>
+						<th>Do this</th>
+					</tr>
+
+					<tr>
+						<td>Yes</td>
+						<td>
+							<ul>
+							<li>Review the <i>Permission for Minor to Donate</i> form and ensure it is signed.</li>
+								<li>Register the donor as explained in this procedure.</li>
+								<li>During IBBIS registration, enter a Donor Comment that states, "Parental Permission on File"; see <b><i>IBBIS.2.3, Enter a Donor Comment.</i></b></li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>No</td>
+						<td>
+							<ul>
+								<li>Determine if parental permission was obtained on a prior donation by reviewing the Comments screen.</li>
+								<li>If no comment exists or if the donor has not previously been registered as a blood donor, do not accept the donor.</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>15 or younger</td>
+			<td>Do not accept for allogeneic donation.</td>
+		</tr>
+
+	</table>
+	<br/>
+
+	<div class="note">
+      <p class="note-head">Note</p>
+      <ul>
+			<li class="note-text">Always enter <b>current</b> demographic information for the donor, even if the donor indicates his or her current information differs from what is printed on the photo ID.</li>
+      </ul>
+  </div>
+	<br/>
+
+<li>Confirm or enter the donor's demographics as follows:</li>
+<br/>
+
+	<ol type="a">
+		<li>Confirm the name on the photo ID is the donor's full current legal name; the name entered in IBBIS for the donor must be his or her full legal name. If the donor indicates that his or her legal name is no longer what is printed on the photo ID (due to marriage, divorce, etc.) or that the name on the photo ID is not his or her full legal name, then ask the donor for his or her full current legal name to enter into IBBIS. If the donor has a nickname that he or she prefers, enter this nickname in the <b>Preferred</b> field in IBBIS.</li>
+		<br/>
+		<li>If the photo ID contains an address, ask the donor to verify that the address on the ID is his or her current address; the address entered in IBBIS for the donor must be his or her current address. Enter or edit the donor's address as needed so that it matches the donor's current address.</li>
+		<br/>
+		<li>Enter or verify other demographics as follows:</li>
+	</ol>
+	<br/>
+
+	<table>
+		<tr>
+			<th>If donor is a</th>
+			<th>Then</th>
+		</tr>
+
+		<tr>
+		<td>Repeat donor</td>
+		<td>Review the information in IBBIS, and verify the donor's home phone, work phone, and email address are still accurate. If needed, update demographics that have changed. (See <b><i>IBBIS.2.2.5, Review a Returning Donor's Data.</i></b>)</td>
+		</tr>
+
+		<tr>
+		<td>New donor</td>
+		<td>Enter the donor's demographics either as printed on the donor's photo ID or as indicated by the donor. (See <b><i>IBBIS.2.2.4, Enter a New Donor's Information.</i></b>)</td>
+		</tr>
+	</table>
+	<br/>
+
+<li>Confirm donor eligibility based on IBBIS-provided information:</li>
+<br/>
+
+<table>
+	<tr>
+		<th>If donor is</th>
+		<th>Then</th>
+	</tr>
+
+	<tr>
+	<td>Eligible and will donate whole blood or 2RBC</td>
+	<td>Select <b>Next,</b> and proceed to step 7.
+	<br/>
+	<div class="note">
+      <p class="note-text"><b>Note: </b>Hereditary Hemochromatosis or Secondary Polycythemia due to TRT patients who qualify for allogeneic or directed donation must donate whole blood only.</p>
+  </div>
+	</td>
+	</tr>
+
+	<tr>
+		<td>Eligible and will donate apheresis platelets</td>
+		<td>Access the Donation History to view the donor's last donation date; handle as follows:
+		<br/>
+
+		<table>
+			<tr>
+				<th>If this</th>
+				<th>Then this</th>
+			</tr>
+
+			<tr>
+				<td>Apheresis platelet donation occurred within last 14 days</td>
+				<td>The donor is not eligible to donate apheresis platelets today.</td>
+			</tr>
+
+			<tr>
+				<td>Apheresis platelet donation did not occur within last 14 days</td>
+				<td>Select <b>Next, </b>and proceed to step 7.</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Not eligible to donate today (but a date in the future)</td>
+		<td>	Inform the donor of his or her next donation date, as displayed on the computer screen. If possible, set an appointment for the donor's next donation. Exit the registration program.</td>
+	</tr>
+
+	<tr>
+		<td>"Not Eligible" (and no future date is shown)</td>
+		<td>
+			<ul>
+				<li>Inform donor that our system indicates he or she is not eligible to donate.</li>
+				<li>Inform donor that, due to confidentiality, you do not have access to the reason the donor cannot currently donate.</li>
+				<li>If the donor wants more information about the reason for deferral or disagrees about his or her eligibility, refer to <b><a href="#">Troubleshooting</a></b>.</li>
+				<li>Exit the registration program.</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+<br/>
+
+<li>Determine if the donor needs any special accomodations, specify concerning language ability. Enter any appropriate IBBIS Comment(s) as needed for the donor if accomodations are neeeded (see <b><i>IBBIS.2.3, Enter a Donor Comment).</i></b> For example:</li>
+<br/>
+
+<table>
+	<tr>
+		<th>If this</th>
+		<th>Then enter</th>
+	</tr>
+
+	<tr>
+		<td>Interpreter required</td>
+		<td>Interpreter Required - [enter language].</td>
+	</tr>
+
+	<tr>
+		<td>Donor is illiterate</td>
+		<td>Donor needs help reading.</td>
+	</tr>
+
+	<tr>
+		<td>Donor is blind</td>
+		<td>Donor is sight impaired.</td>
+	</tr>
+
+	<tr>
+		<td>Donor is hearing impaired</td>
+		<td>Donor is hearing impaired.</td>
+	</tr>
+</table>
+
+<li>Select <b>Next</b> to move to the Intended Use screen. Select the appropriate intended use based on interactions with the donor.</li>
+<br/>
+
+<table>
+	<tr>
+		<th>If this</th>
+		<th>Then this</th>
+	</tr>
+
+	<tr>
+		<td>Allogeneic donor</td>
+		<td>Select the "Allogeneic" intended use. Ensure a <i>Single Donation Record (SDR)</i> is loaded in the printer.</td>
+	</tr>
+
+	<tr>
+		<td>Donor indicates he or she is donating for a specific patient</td>
+		<td>
+			<ol>
+				<li>Ensure a <i>Single Donation Record (SDR)</i> is loaded in the printer.</li>
+				<li>Ask donor if donation is "for" the patient or "in honor of" the patient.</li>
+			</ol>
+			<table>
+				<tr>
+					<th>If donor is</th>
+					<th>Then enter</th>
+				</tr>
+
+				<tr>
+					<td>Giving blood for a specific patient</td>
+					<td>Review the Request for Directed Donation form for the named patient and verify the donor's name is listed:
+					<br/>
+
+					<table>
+						<tr>
+							<th>If this</th>
+							<th>Then this</th>
+						</tr>
+
+						<tr>
+							<td>Yes</td>
+							<td>
+								<ol>
+									<li>Register the donor with an intended use of "directed," and enter the patient's name when prompted.</li>
+									<li>Obtain and complete the "Directed Donor" tag (see <a href="#">Figure 2</a>). Refer to the <i>Request for Directed Donation</i> form to obtain information requested on tag; check "Yes" for the irradiation question.</li>
+									<li>Evaluate the request to determine what component type should be drawn/ prepared. Write the following in the <b>Component</b> field on the tag:
+										<ol type='a'>
+											<li>Write the component type (packed cells, platelets, whole blood, etc.).</li>
+											<li>If the patient is one-year old or less, also write CPDA.</li>
+										</ol>
+									</li>
+								</ol>
+							</td>
+						</tr>
+
+						<tr>
+							<td>No</td>
+							<td>Consult Quality Assurance</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Donating in honor (on behalf) of a patient</td>
+					<td>Register the donor as allogeneic and write the patient's name on the SDR. If available, also complete any document prepared in honor of that patient.</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Autologous patient</td>
+		<td>
+			<ol>
+			<li>Select the "Autologous" intended use; refer to <a href="#">Troubleshooting</a> if this intended use is not enabled.</li>
+			<li>Obtain an Autologous Patient Record (APR), and load it into the printer.</li>
+			<li>Obtain and complete the "For Autologous Use Only" tag (see <a href="#">Figure 3</a>).
+			If the donor is donating 2RBCs, prepare a tag for each component.</li>
+			</ol>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Therapeutic patient (not Hereditary Hemochromatosis or Secondary Polycythemia due to TRT)</td>
+		<td>
+			<ol>
+			<li>Select the "Therapeutic" intended use; refer to <a href="#">Troubleshooting</a> if this intended use is not enabled.</li>
+			<li>Obtain a <i>Therapeutic Patient Record (TPR)</i>, and load it into the printer.</li>
+			<li>Select the Next button to proceed with registration regardless of whether IBBIS screen says "Not Eligible."</li>
+			</ol>
+			<div class="note">
+      <p class="note-text"><b>Note: </b>If the patient indicates that he or she has Hereditary Hemochromatosis or Secondary Polycythemia due to TRT and is eligible for allogeneic donation, but only the "Therapeutic" intended use is enabled, this may indicate that the patient is either not enrolled properly or has an active deferral from allogeneic donation.</p>
+  		</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Hereditary Hemochromatosis or Secondary Polycythemia due to TRT patient</td>
+		<td>
+			<ol>
+				<li>Select the "Potential Therp. Crossover" intended use. Alert Donor Services staff that the donor should be evaluated for allogeneic eligibility according to DIPPM.1.4. If the "Potential Therp. Crossover" intended use is not active, register the donor as a therapeutic patient.</li>
+				<li>Ensure a Single Donation Record (SDR) is loaded in the printer.</li>
+			</ol>
+			<div class="note">
+      <p class="note-text"><b>Note: </b>IBBIS only enables the "Potential Therp. Crossover" intended use when the diagnosis on the order is Hereditary Hemochromatosis or Secondary Polycythemia due to TRT and no active deferral exists in IBBIS for the donor/patient.</p>
+  		</div>
+		</td>
+	</tr>
+</table>
+<br/>
+
+<li>If prompted to enter the donation credit, either select "Blood Donor Benefit Plan," if available, or enter the collection site code as the group code, unless the donor indicates that he or she wishes to credit a specific group not associated with the collection site for his or her donation. </li>
+<br/>
+
+<li>Select <b>Next</b> to move to the next screen; enter the DIN into IBBIS, and then remove the DIN set from the pad. Select <b>Next</b> to proceed with printing the donation record.</li>
+<br/>
+
+<li>Handle the paperwork as detailed in section <b><a href="#">1.1.3, Handle Donation Paperwork</a></b>.</li>
+<div class="note">
+      <p class="note-head">Note</p>
+      <ul>
+			<li class="note-text">When registering donors, do not remove the DIN set from the pad until you enter the number into IBBIS.</li>
+			<li class="note-text">If you assign the wrong DIN to the donor's record, refer to the <b><a href="#">Troubleshooting section</a></b>.</li>
+      </ul>
+  </div>
+</ol>
+
+<!--Procedure Section 3-->
+<h4><a name="1.1.3">
+1.1.3, Handle Donation Paperwork
+</a>
+</h4>
+
+<ol>
+	<li>Pair the DIN set with the printed donation record (SDR, APR, or TPR). Confirm that the numbers on the DIN set match the number printed on the donation record.</li>
+	<li>Review the <b>ELIGIBLITY</b> field on the <i>SDR</i> for these items:
+		<ol type='a'>
+			<li><b>HLA: </b>if HLA positive (+), do not draw apheresis platelets or plasma.</li>
+			<li><b>ROLLING DEF. ALERT, Eval NDD before rebooking: </b>do this:
+				<ol type="i">
+				<li>(i)	Assess the donor's weight and the <b>Plasma Loss (mL)</b> indicated on the <i>SDR</i> to determine if today's donation is affected; specifically consider this:
+					<table>
+						<tr>
+							<th>If donor weighs</th>
+							<th>Then</th>
+						</tr>
+
+						<tr>
+							<td>175 lbs. or less</td>
+							<td>Evaluate the <b>Plasma Loss (mL) </b>value:
+								<table>
+									<tr>
+										<th>If this</th>
+										<th>Then do this*</th>
+									</tr>
+
+									<tr>
+										<td>less than 11,000</td>
+										<td>Today's donation can proceed as normal. Continue to step 2.b(ii).</td>
+									</tr>
+
+									<tr>
+										<td>Between 11,000 and 11,500</td>
+										<td>Make a note that only a single apheresis platelet should be drawn. Continue to step 2.b(ii).</td>
+									</tr>
+
+									<tr>
+										<td>More than 11,500</td>
+										<td>Do not draw apheresis platelets. Continue to step 2.b(ii)
+										<div class="note">
+      								<p class="note-text"><b>Note: </b>For donations where platelet additive solution (PAS) will be used, the restrictions related to drawing apheresis platelets can be disregarded. Only certain Amicus-drawing locations perform PAS collections.</p>
+  									</div>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+						</tr>
+
+						<tr>
+							<td>More than 175 lbs.</td>
+							<td>Today's donation can proceed as normal. Continue to step 2.b(ii).</td>
+						</tr>
+					</table>
+					<br/>
+
+					<li>If the donor will donate platelet or plasma apheresis today:</li>
+						<ol type='1'>
+						<li>Make a note on the <i>SDR</i> about rescheduling. Advise the donor <u>and</u> the phlebotomist that, the donor's next donation date (NDD) may be affected.</li>
+						<li>Schedule the donor's next appointment for one day and one year after the date printed on the <i>SDR</i> as the "Earliest donation in this period". For example, if the earliest donation in the period is 23 Jun 2014, schedule the donor's next appointment for 24 Jun 2015 or later.</li>
+						</ol>
+				</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<br/>
+
+	<div class="note">
+      <p class="note-head">Notes</p>
+      <ul>
+			<li class="note-text">The FDA limits the total plasma loss a donor can incur over a rolling 12-month period. For donors who weigh up to 175 lbs., this limit is 12,000 m L. For donors who weigh more than 175 lbs., this limit is higher.</li>
+			<li class="note-text">The FDA only allows 24 platelet apheresis donations in a rolling 12-month period.</li>
+			<li class="note-text"> 	Refer to the <b>Meeting Plasma Loss and Donation Limit Regulations</b> reference document for more information on limits associated with apheresis platelet donations and plasma loss.</li>
+      </ul>
+  </div>
+	<br/>
+
+	<li>Review the <b>IBBIS Donor Comments</b> field on the <i>SDR</i> to determine if additional actions are necessary. See <a href="#">Table 1</a>.</li>
+	<br/>
+
+	<li>If performing a blood drive at a military location and the allogeneic donor is a civilian, write "civilian" in the <b>IBBIS Donor Comments</b> field on the front of the <i>SDR</i>. </li>
+	<br/>
+
+	<li>Prepare the donor's bundle, which may include the following:
+		<ul>
+			<li>DIN set assigned in the Register a Donor program</li>
+			<li><i>Permission for Minor to Donate</i> form, if included</li>
+			<li>"Directed Donor" tag, if donor is donating for a directed patient (see <a href="#">Figure 2</a>)</li>
+			<li>"For Autologous Use Only" tag(s), if donor is an autologous patient (see <a href="#">Figure 3</a>)</li>
+			<li>Any other information or support items, such as a coupon book</li>
+		</ul>
+	</li>
+	<br/>
+
+	<li>Attach the donor bundle items to the printed donation record. Place the bundle in the designated area if the interview is not immediately conducted.</li>
+
+</ol>
+
+
+<!--Table Section-->
+<p class="dataCaption">
+  <b>Table 1</b>, Donor Comments
+</p>
+
+<table>
+	<tr>
+		<th>Comment</th>
+		<th>Action</th>
+	</tr>
+
+	<tr>
+		<td>Pertains to donor's eligibility, such as an indication that donor requires a doctor's note to donate</td>
+		<td>Follow up with the donor as needed. If the donor has a doctor's note on hand, consult with the Medical Director or designee as explained in <b>DIPPM.1.1.</b></td>
+	</tr>
+
+	<tr>
+		<td>Indicates donor has parental permission on file</td>
+		<td>Accept donor if at least 16 years old, as this comment indicates that donor's parent or guardian has signed a permission slip allowing all future donations.</td>
+	</tr>
+
+	<tr>
+		<td>Comment related to cord blood donation</td>
+		<td>Disregard.</td>
+	</tr>
+
+	<tr>
+		<td>Indicates a donor requires a bilingual screener or interpreter</td>
+		<td>If possible, arrange for an internal or third-party interpreter to assist the donor (see <b>DRCT.3.3</b>). If an interpreter is not available at the time of registration, offer to make an appointment for the donor at a time when an interpreter will be available.</td>
+	</tr>
+
+	<tr>
+		<td>"Sickle Cell Hero"</td>
+		<td>Include a "Sickle Cell Hero" tag with the SDR when you bundle the donation paperwork.</td>
+	</tr>
+
+	<tr>
+		<td>Comment recommends a specific donation type</td>
+		<td>Accept the donor if donor willing to donate type as specified in comment (e.g., "WB or 2RBC donations only"); otherwise, defer the donor.</td>
+	</tr>
+</table>
+<br/>
+
+<img class="img" src="http://www.immersion-3d.com/wp-content/uploads/2015/12/image-placeholder-500x500.jpg">
+		<p class="dataCaption">
+  		<b>Figure 1</b>, Directed Donor Tag
+		</p>
+
+<img class="img" src="http://www.immersion-3d.com/wp-content/uploads/2015/12/image-placeholder-500x500.jpg">
+		<p class="dataCaption">
+  		<b>Figure 2</b>, For Autologous Use Only Tag
+		</p>
+
+<!--Related Documents Section-->
+<h3>
+Related Documents
+</h3>
+<ul>
+	<li><a href="#">DCPM.7.1 (Receive a Request for a Patient-Related Collection)</a></li>
+	<li><a href="#">DCPM.7.3 (Receive a Therapeutic Phlebotomy Order)</a></li>
+	<li><a href="#">DIPPM.1.1 (Interview an Allogeneic Donor)</a></li>
+	<li><a href="#">DIPPM.1.4 (Determine Eligibility of Potential Therapeutic Crossover Donors)</a></li>
+	<li><a href="#">DRCT.3.2 (Request a Bilingual Screener/Interpreter)</a></li>
+	<li><a href="#">DRCT.3.3 (Work with a  Third Party Interpreter)</a></li>
+	<li><a href="#">EMP.3.1 (Initiate a Reportable Event)</a></li>
+	<li><a href="#">FDPM.1.1 (Issue a Receipt)</a></li>
+	<li><a href="#">IBBIS User's Guide</a></li>
+	<li><a href="#">Meeting Plasma Loss and Donation Limit Regulations reference document</a></li>
+	<li><a href="#">MO.2.1 (Receive a Donor Inquiry)</a></li>
+</ul>
+
+<!--Troubleshooting-->
+<h3>
+Troubleshooting
+</h3>
+<p>
+<a href="#">Table 2</a> presents troubleshooting steps for common registration issues. For any error not listed, consult your supervisor.
+</p>
+<br/>
+
+<!--Table Section-->
+<p class="dataCaption">
+  <b>Table 1</b>, Troubleshooting
+</p>
+
+<table>
+	<tr>
+		<th>If this</th>
+		<th>Then this</th>
+	</tr>
+
+	<tr>
+		<td>Autologous intended use cannot be selected</td>
+		<td>Handle as detailed in the row for how to handle when a patient record cannot be located when looking up or registering the patient.</td>
+	</tr>
+
+	<tr>
+		<td>DIN set is lost or becomes unusable </td>
+		<td>
+			<ol>
+				<li>Access the End a Visit program to close the visit as explained in <b><i>IBBIS.2.2.8, End a Visit</i></b>.</li>
+				<li>Register the donor with a new DIN set; if the set is damaged, discard the entire DIN set.</li>
+			</ol>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Donor leaves before a phlebotomy was performed
+			<div class="note">
+      	<p class="note-text"><b>Note: </b>This row does not apply if the donor left due to a deferral.</p>
+  		</div>
+		</td>
+		<td>
+			<ol>
+			<li>Document the fact that the donor left on the <i>SDR</i> provided the <i>SDR</i> is available. If the donor left with the <i>SDR</i>, process the <i>SDR</i> as missing according to <b><i>DCPM.3.2.</i></b></li>
+				<li>Access the End a Visit program to close the visit as explained in <b><i>IBBIS.2.2.8, End a Visit.</i></b></li>
+			</ol>
+			<div class="note">
+      	<p class="note-text"><b>Note: </b>If the donor leaves and then returns to donate, initiate a new visit by registering the donor again.</p>
+  		</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Donor gender, date of birth, last 4 digits of SSN or ethnicity incorrect and cannot be edited</td>
+		<td>These fields can only be edited by a user with the proper IBBIS role.  Submit a Technical Assistance Request to request that this information be updated; see <b><i>IBBIS.A.1.1, Submit a TAR</i></b>. Be sure to include the donor's Donor ID on the request and explain what information needs to be changed; include a description of the corrected information (such as: "Correct date of birth = January 1, 1971").</td>
+	</tr>
+
+	<tr>
+		<td>Donor registered to incorrect record</td>
+		<td>
+			<ol>
+				<li>Apply the "QA: Investigation" hold to the DIN (if a collection occurred). See <b><i>IBBIS.7.3, Assign a Hold.</i></b></li>
+				<li>Initiate a Reportable Event Form (see <b><i>EMP.3.1</i></b>). Record the Donor ID of each donor record involved.</li>
+				<li>Record the Donor ID of the incorrect donor record on the <i>Reportable Event Form</i>. Also, list any donor demographics incorrectly modified on the first (incorrect) donor's record.</li>
+				<li>Re-register the donor to the correct record. Record the donor's actual Donor ID on the <i>Reportable Event Form</i>.</li>
+			</ol>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Duplicate donor record created</td>
+		<td>
+			<ol>
+				<li>Make a note of the duplicate donor issue on the printed <i>SDR</i>.</li>
+				<li>Apply the "Duplicate Donor Investigation" hold to the DIN (if a collection occurred). See <b><i>IBBIS.7.3, Assign a Hold.</i></b></li>
+				<li>Submit a Technical Assistance Request per <b><i>IBBIS.A.1.1, Submit a TAR.</i></b></li>
+				<li>Confirm the donor is eligible to donate based on their previous record.</li>
+			</ol>
+			<table>
+				<tr>
+					<th>Eligible?</th>
+					<th>Do this</th>
+				</tr>
+
+				<tr>
+					<td>Yes</td>
+					<td>Proceed with the donation using newly created record.</td>
+				</tr>
+
+				<tr>
+					<td>No</td>
+					<td>Stop the donation.</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Error message displayed by IBBIS</td>
+		<td>Refer to the <b><i>IBBIS User's Guide, Appendix C: System Messages.</i></b></td>
+	</tr>
+
+	<tr>
+		<td>Error with printing the SDR occurs</td>
+		<td>
+			<ul>
+			<li>Use the IBBIS Reprint an SDR function to reprint the donor's last <i>SDR</i> (see <b><i>IBBIS.2.9, Reprint an SDR</i></b>). Do not re-register the donor in IBBIS.</li>
+				<li>If an IBBIS <i>SDR</i> cannot be printed, handwrite the <i>SDR</i>. Note the following:</li>
+					<ol type="a">
+						<li>Complete all donor demographic fields on the <i>SDR</i>.</li>
+						<li>Complete <b>Draw Date</b> and <b>Registered DIN</b> fields in the <b>Donation</b> section.</li>
+						<li>Ensure the written DIN matches the computer entry and the DIN pad.</li>
+					</ol>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>IBBIS indicates donor is not eligible, but donor disagrees about eligibility or asks about the reason for deferral</td>
+		<td>
+			<ul>
+				<li>If the donor simply wants to know the reason for deferral, contact the Quality Assurance Department to determine the deferral reason. </li>
+				<li>If a member of QA is not available and/or if the donor disagrees with the deferral, complete a <i>Donor Inquiry Record</i> as detailed in <b><i>MO.2.1.</i></b></li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>IBBIS indicates donor is not eligible due to "Visit Status = Initial."</td>
+		<td>
+			<ul>
+				<li>If the unresolved visit occurred today (meaning the donor left and then returned), close the visit as explained in the row above for "Donor leaves before a phlebotomy was performed."</li>
+				<li>If the unresolved visit was not today, initiate a Technical Assistance Request so that the unresolved visit can be researched and closed if appropriate. </li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Incorrect DIN assigned</td>
+		<td>	Place the "IBBIS: TAR Submitted" hold on all DINs involved in the mix-up; see <b><i>IBBIS.7.3, Assign a Hold.</i></b> Submit a Technical Assistance Request as detailed in <b><i>IBBIS.A.1.1, Submit a TAR.</i></b> Consult a supervisor. Submit a <i>Reportable Event Form</i> (see <b><i>EMP.3.1</i></b>).</td>
+	</tr>
+
+	<tr>
+		<td>Patient is not eligible to donate blood based on IBBIS-provided information</td>
+		<td>Contact Quality Assurance. Quality Assurance must adjust the patient's record before Registration occurs. Do <b>not</b> register the patient without first consulting Quality Assurance.</td>
+	</tr>
+
+	<tr>
+		<td>Patient record cannot be located when looking up the patient and/or when registering the patient</td>
+		<td>Confirm with the patient that his or her doctor submitted the appropriate paperwork, and handle as follows:
+			<ul>
+				<li>If paperwork submitted, contact Quality Assurance to determine if the patient is enrolled.</li>
+				<li>If paperwork was not submitted, perform the following as appropriate:</li>
+			</ul>
+			<table>
+				<tr>
+					<th>If this</th>
+					<th>Then this</th>
+				</tr>
+
+				<tr>
+					<td>Autologous patient</td>
+					<td>Provide the patient a copy of the Request for Autologous Collections form, and explain the process to the patient (see <b><i>DCPM.7.1</i></b> for details).</td>
+				</tr>
+
+				<tr>
+					<td>Therapeutic patient</td>
+					<td>Provide the patient a copy of the Therapeutic Phlebotomy Order form, and explain the process to the patient (see <b><i>DCPM.7.3</i></b> for details).</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Photo ID is expired</td>
+		<td>If the ID (either presented or in IBBIS) includes an expiration date that has passed, ask the donor if he or she has a valid photo ID.
+			<ul>
+			<li>If available, scan the valid photo ID as detailed in <b><i>IBBIS.2.2.3, Scan a Donor's Identification Card.</i></b></li>
+				<li>If not, proceed with registration, but remind the donor to bring a valid photo ID for the next donation so that the image on file can be updated. </li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Registration program is unavailable and cannot be restored</td>
+		<td>If IBBIS is temporarily offline, perform the following:
+			<ol>
+				<li>Obtain approval from the District Director, Vice President of Operations, or authorized designee to register donors offline.</li>
+				<li>Handwrite the <i>SDR</i>. Note the following:</li>
+					<ol type="a">
+						<li>Complete all donor demographic fields on the <i>SDR</i>.</li>
+						<li>Complete the following fields of the <b>Donation</b> section:
+							<ul>
+							<b>
+								<li>Draw Date</li>
+								<li>Registration Time</li>
+								<li>Intended Use</li>
+								<li>Registered DIN</li>
+								<li>Credit For</li>
+							</b>
+							</ul>
+						</li>
+						<li>Ensure the written DIN matches the DIN pad.</li>
+					</ol>
+				<li>Once IBBIS is available, register the donor in the computer. Perform the following:
+					<ol type="a">
+						<li>Select the appropriate function.</li>
+							<ul>
+							<li>Use the Register a Donor function (<b><i>IBBIS.2.2, Register a Donor</i></b>) to enter donation information from the current day.</li>
+							<li>Use the Register a Donor Retroactively function (<b><i>IBBIS.2.8, Register a Donor Retroactively</i></b>) to enter donation information from the previous day.</li>
+								<li>When entering demographics, verify all donation information entered matches the handwritten <i>SDR</i> before printing the IBBIS <i>SDR</i>.</li>
+							</ul>
+							<li>Review the IBBIS-printed <i>SDR</i>; ensure the printed information matches the handwritten information.</li>
+							<table>
+								<tr>
+									<th>If this</th>
+									<th>Then this</th>
+								</tr>
+
+								<tr>
+									<td>All items match</td>
+									<td>The printed <i>SDR</i> can be shredded.</td>
+								</tr>
+
+								<tr>
+									<td>Errors in the IBBIS registration were made</td>
+									<td>Access Edit Donor Demographics to correct the error; see <b><i>IBBIS.2.4, Manage Donor Information.</i></b></td>
+								</tr>
+							</table>
+							<div class="note">
+							<p class="note-text"><b>Important! </b>If the donor is not eligible to donate in IBBIS but donated successfully, immediately notify your supervisor, and complete a Reportable Event Form; quarantine the collected unit pending investigation (see <b>CL.1.1</b>).</p>
+  						</div>
+					</ol>
+				</li>
+				<li>Scan the original, handwritten <i>SDR</i> or place it in the appropriate area for scanning.</li>
+			</ol>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Site code or group credit code incorrect</td>
+		<td>Update the information using the Correct a Visit's Data program as detailed in <b><i>IBBIS.A.16, Correct a Visit's Data.</i></b></td>
+	</tr>
+
+	<tr>
+		<td>Synchronization errors occurs</td>
+		<td>Contact the Helpdesk for resolution. Note that if the recommendation is to retroactively register the donor, deferrals related to the retroactive registrations drive must be re-entered based on the new registration (using the new Visit ID created at the retroactive registration).</td>
+	</tr>
+
+	<tr>
+		<td>Therapeutic intended use cannot be selected</td>
+		<td>
+			<table>
+				<tr>
+					<th>If this</th>
+					<th>Then this</th>
+				</tr>
+
+				<tr>
+					<td>"Potential Therp. Crossover" intended use displays</td>
+					<td>Proceed as instructed in step 8.</td>
+				</tr>
+
+				<tr>
+					<td>"Potential Therp. Crossover" intended use not displayed</td>
+					<td>Contact Quality Assurance because the patient is not enrolled or the order has expired.</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Visit incorrectly closed</td>
+		<td>Access the End a Visit program to reopen the visit; see <b><i>IBBIS.2.2.8, End a Visit.</i></b>
+		<div class="note">
+      	<p class="note-text"><b>Note: </b>Only use the reopen function in the End a Visit program if the visit was incorrectly closed. If a donor leaves the donation site and then returns later to donate, initiate a new visit by registering the donor again. Reopening a visit in this instance can cause issues with processing the donation; specifically if an additional phlebotomy is involved. Additional phlebotomies must be entered into IBBIS within two hours of the visit was registered.</p>
+  		</div>
+		</td>
+	</tr>
+
+
+</table>
+
+
+<!--Version History Table-->
+<p class="versionHistory">
+  Version History
+</p>
+
+<table>
+  <tr>
+    <th class="vht-head">#</th>
+    <th class="vht-head">Significant Changes</th>
+    <th class="vht-head">Approved by</th>
+    <th class="vht-head">Approved</th>
+    <th class="vht-head">Implemented</th>
+  </tr>
+
+  <tr>
+    <td class="vht-data">1.0</td>
+    <td class="vht-data">New SOP</td>
+    <td class="vht-data">Lori Masingil</td>
+    <td class="vht-data">01 Jan 2017</td>
+    <td class="vht-data">01 Jan 2017</td>
+  </tr>
+</table>
+</div>
