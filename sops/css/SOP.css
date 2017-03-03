@@ -1,0 +1,214 @@
+.page-width {
+  width: 960px;
+}
+
+/*Text Styles*/
+
+h1 {
+  margin-top: 0.5in;
+  margin-right: 0in;
+  margin-bottom: 0.25in;
+  margin-left: 0in;
+  text-indent: 0in;
+  font-size: 14.0pt;
+  font-family: "Verdana", "sans-serif";
+  color: rgb(0, 32, 96);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #D9D9D9;
+}
+
+tr {
+  width: 100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.no-border {
+  border: none;
+  padding-right: 20px;
+}
+
+.procedureHeading {
+  margin-top: 6.0pt;
+  margin-right: 0in;
+  margin-bottom: 6.0pt;
+  margin-left: 0in;
+  text-indent: 5pt;
+  background: #D9D9D9;
+  padding: 0in;
+  font-size: 18.0pt;
+  font-family: "Arial Black", "sans-serif";
+  font-weight: normal;
+}
+
+.procedureInfo {
+  margin-top: 6.0pt;
+  margin-right: 0in;
+  margin-bottom: 0.0pt;
+  margin-left: 0in;
+  text-indent: 5pt;
+  padding: 0in;
+  font-size: 9.0pt;
+  font-family: "Georgia", "sans-serif";
+  font-weight: normal;
+}
+
+.materials {
+  position: relative;
+}
+
+.materialcol1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
+.materialcol2 {
+  position: relative;
+  top: 0x;
+  right: 0;
+  width: 200px;
+}
+
+h3 {
+  margin-top: 12pt;
+  margin-right: 0in;
+  margin-bottom: 6pt;
+  margin-left: 1.4in;
+  text-indent: -1.4in;
+  font-size: 12.0pt;
+  font-family: "Verdana", "sans-serif";
+  font-color: #FFF;
+}
+
+p {
+  margin-top: 6.0pt;
+  margin-right: 0in;
+  margin-bottom: 0in;
+  margin-left: 0in;
+  margin-bottom: .0001pt;
+  text-indent: 0in;
+  font-size: 10.0pt;
+  font-family: "Georgia", "serif";
+}
+
+h4 {
+  margin-top: 14.0pt;
+  margin-right: 0in;
+  margin-bottom: 0in;
+  margin-left: 1.0in;
+  margin-bottom: .0001pt;
+  text-indent: -1.0in;
+  border: none;
+  padding: 0in;
+  font-size: 12.0pt;
+  font-family: "Verdana", "sans-serif";
+  color: #1F497D;
+  font-style: italic;
+}
+
+.note {
+  background: #DBE5F1;
+}
+
+p.note-head {
+  color: #00007D;
+  font-family: "Verdana", "sans-serif";
+  font-weight: bold;
+  font-size: 11pt;
+  margin-top: 6pt;
+  margin-left: 0.25in;
+}
+
+li.note-text {
+  margin-left: 0.25in;
+  font-family: "Verdana", "sans-serif";
+  color: black;
+  font-size: 9pt;
+}
+
+.versionHistory {
+  border: 1px solid black;
+  font-family: "Verdana", "sans-serif";
+  font-size: 14pt;
+  font-weight: bold;
+  background: #d9d9d9;
+  margin-bottom: 3pt;
+}
+
+.vht-head {
+  border: 1px solid black;
+  font-family: "Verdana", "sans-serif";
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background: #17375D;
+}
+
+th.vht-head {
+  column-width: 200px;
+}
+
+.vht-data {
+  border: 1px solid black;
+  font-family: "Verdana", "sans-serif";
+  font-size: 8pt;
+  column-width: 200px;
+  text-align: left;
+}
+
+.dataTable-head {
+  border: 1px solid black;
+  font-family: "Verdana", "sans-serif";
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background: #17375D;
+}
+
+.dataTable-data {
+  border: 1px solid black;
+  font-family: "Verdana", "sans-serif";
+  font-size: 10pt;
+  text-align: left;
+}
+
+.dataCaption {
+  font-family: "Verdana", "sans-serif";
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 24pt;
+  margin-bottom: 4pt;
+}
+
+
+/*Figure Styles*/
+
+img {
+  align: middle;
+  position: relative;
+	left: 35%;
+}
+
+img .caption {
+  font-family: "Verdana", "sans-serif";
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 6pt;
+  margin-bottom: 18pt;
+}
